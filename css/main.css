@@ -1,0 +1,303 @@
+
+@font-face {
+    font-family: Bariol;
+    src: url(../fonts/Bariol_Regular.otf);
+  }
+body{
+    margin: 0;
+    font-family: 'Bariol';
+
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f76261;
+}
+.nav-item a{
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #000000;
+}
+
+header{
+    background-color: #ec4f4d;
+    position: relative;
+
+}
+
+header .container-fluid{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    color: #ffffff;
+}
+
+
+header  .carousel-item{
+    justify-content: center;
+}
+header  .carousel-item.active{
+    display: flex;
+    justify-content: center;
+}
+
+.smartSection{
+    background-color: #232425;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-toggler{
+     border-color: #ffffff;
+}
+.navbar-toggler .navbar-toggler-icon{
+    color:#ffffff !important;
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%) !important;
+    filter: grayscale(100%);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+
+.teamSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6cc372;
+}
+
+.card{
+    width: 23%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.card .card-img-top{
+    width: 70%;
+    margin-top: 20px;
+    
+}
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.workSection{
+    padding-top: 20px;
+    padding-bottom: 200px;
+
+    background-color: #f0f0f0;
+}
+
+.view{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slideCard{
+    float: left; 
+    padding-right:50px; 
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #656565;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -37px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #61af66;
+}
+.cardCaption{ 
+    font-size: 18px;
+    color: #000000; 
+    font-weight: 300; 
+    text-align: center; 
+    padding: 25px 0 0 0}
+
+
+
+
+/* Plans Section */
+.plansSection{
+    flex-direction: row;
+    position: relative;
+    margin-top: -240px;
+    height: 500px;
+
+}
+.planCardSide1 {
+    padding: 95px 0 0 0;
+    margin-right: 15px;
+    position: relative;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 15px 71.25px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-link+.card-link {
+    margin-left: 43px;
+}
+.list-group-item{
+    background-color: #f0f0f0; 
+    font-size: 18px;
+    color: #616161;}
+.planFooter{
+    color: #eb4f4e; 
+    text-align: center; 
+    padding: 30px 0 0 20px; 
+    font-weight: bold;}
+
+/* Tweet Section */ 
+.tweetSection{
+    background-color: #eb4f4e;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 200px;
+}
+.tweetMainCaption{
+    font-size: 40px;
+    color: #ffffff; 
+    font-weight: bold; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    padding-top: 40px}
+.tweetDescription{
+    font-size: 15px;
+    color: #000000; 
+    font-weight: 200; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    padding-bottom: 10px;}
+.tweetSlider{
+    padding-left: 50px;}
+.blackText{
+    font-size: 19.5px; 
+    font-style: italic; 
+    color: black;}
+.whiteText{
+    font-size: 19.5px;
+    font-style: italic; 
+    color: white;}
+
+
+/* footer */
+.footer{
+    background-color: #000000;
+    overflow: hidden;}
+
+/* Maps Section */
+.mapSectionCaptions {
+    position: absolute;
+    background-color: #232425cb;
+    width: 40%;
+    margin-left: auto;
+    height: fit-content;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 140px;
+    bottom: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+}
+.mapMainCaption{
+    font-size: 25px; 
+    font-family: 'Bariol'; 
+    color: #ffffff; 
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    text-align: center;}
+.mapDescription{
+    font-size: 15px; 
+    font-family: 'Bariol';
+    color: #eb4f4e; 
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    line-height: 24px;}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 100%;
+    height: 41px;
+    width: 41px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+@media screen and (max-width: 800px){
+    .teamSection .container{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .teamSection .container .card{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .plansSection{
+        overflow: auto;
+    }
+    .blackText{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    
+}
